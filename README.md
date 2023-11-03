@@ -4,10 +4,10 @@
 ox_inventory
 es_extended
 
-1. # First step:
+# First step:
 Go into ox_inventory/web/images and put wallet.png into folder. You can find image in inventory-image folder.
 
-2. # Second step:
+# Second step:
 Go into ox_inventory/data/items.lua and add this:
 
 	['wallet'] = {
@@ -20,7 +20,7 @@ Go into ox_inventory/data/items.lua and add this:
 		}
 	},
 
-3. # Third step:
+# Third step:
 Go into ox_inventory/modules/items/containers.lua and add this.
 You can configurate how many slots you want, how much weight, whitelisted items (Like money, your license, documents etc..) 
 
@@ -30,14 +30,14 @@ You can configurate how many slots you want, how much weight, whitelisted items 
 		whitelist = { 'money', 'driver_license', 'weaponlicense', 'lawyerpass', 'membership', 'id_card' } 
 	})
 
-4. # Fourth step:
+# Fourth step:
 Put all files into resources folder
 
-5. # Fifth step:
+# Fifth step:
 Go into server.cfg and add this line:
 
 ensure wasabi_wallet
 
-6. # Sixth step:
+# Sixth step:
 Restart your server and enjoy, you have functional wallet script!
 
