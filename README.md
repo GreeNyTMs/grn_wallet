@@ -36,7 +36,7 @@ Put all files into resources folder
 # Fifth step:
 Go into server.cfg and add this line:
 
-ensure wasabi_wallet
+ensure grn_wallet
 
 # Sixth step:
 Restart your server and enjoy, you have functional wallet script!
